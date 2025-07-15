@@ -1,0 +1,91 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f3f3f3;
+  margin: 0;
+}
+
+.calc {
+  background: #222;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  padding: 24px;
+  max-width: 340px;
+  width: 100%;
+}
+
+.body-calc {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Use 4 columns */
+  gap: 12px;
+}
+
+.show {
+  grid-column: 1 / -1;
+  height: 48px;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  text-align: right;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: none;
+  background: #fff;
+  color: #222;
+}
+
+.btn,
+.red-btn {
+  height: 48px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: none;
+  background: #444;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn:active,
+.red-btn:active {
+  background: #666;
+}
+
+.red-btn {
+  background: #e74c3c;
+}
+
+.red-btn:active {
+  background: #c0392b;
+}
+
+.red-btn {
+  grid-column: span 2;
+}
+
+/* Responsive styles */
+@media (max-width: 480px) {
+  .calc {
+    max-width: 98vw;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  .body-calc {
+    grid-template-columns: repeat(4, 1fr); /* Use 4 columns on mobile too */
+    gap: 6px;
+  }
+  .show {
+    height: 36px;
+    font-size: 1.1rem;
+    padding: 0 6px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+  }
+  .btn,
+  .red-btn {
+    height: 36px;
+    font-size: 1rem;
+    border-radius: 4px;
+  }
+}
