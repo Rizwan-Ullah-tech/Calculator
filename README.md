@@ -31,7 +31,7 @@ calculator/
 
 ## 🚀 Demo
 
-Live demo (if deployed with GitHub Pages):
+Live demo:
 👉 [https://rizwan-ullah-tech.github.io/Calculator/](https://rizwan-ullah-tech.github.io/Calculator/)
 
 ---
@@ -46,17 +46,19 @@ Live demo (if deployed with GitHub Pages):
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/calculator.git
+   https://github.com/Rizwan-Ullah-tech/Calculator.git
     ```
 2. Open `index.html` in your web browser.
 3. Use the mouse or keyboard to perform calculations.
 
 ## Technologies Used
+
 - HTML5
 - CSS3
 - JavaScript (vanilla)
 
 ## Author
+
 - Rizwan Ullah
 - [Rizwan.ullah.tech@gmail.com](mailto:Rizwan.ullah.tech@gmail.com)
 - [Rizwan-Ullah-tech](https://github.com/Rizwan-Ullah-tech)
