@@ -32,8 +32,7 @@ calculator/
 ## 🚀 Demo
 
 Live demo (if deployed with GitHub Pages):
-👉 [https://your-username.github.io/calculator](https://your-username.github.io/calculator)
-_(Update the link with your GitHub username after publishing)_
+👉 [https://rizwan-ullah-tech.github.io/Calculator/](https://rizwan-ullah-tech.github.io/Calculator/)
 
 ---
 
